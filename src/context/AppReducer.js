@@ -10,6 +10,7 @@ switch(action.type){
             ...state,
             transactions: [action.payload, ...state.transactions]
         }
+        
     default:
         return state;
 }

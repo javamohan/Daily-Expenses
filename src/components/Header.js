@@ -6,4 +6,5 @@ export const Header = () => {
             Expense Tracker
         </h2>
     )
+    
 }
